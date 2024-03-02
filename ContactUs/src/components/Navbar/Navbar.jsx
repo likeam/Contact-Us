@@ -1,9 +1,10 @@
 import React from 'react'
+import './Navbar.css'
 
 function Navbar() {
   return (
     
-        <nav>
+        <nav className='container'>
             <div className='logo'>
                 <img src='/Images/logo.png' alt='logo' />
             </div>  

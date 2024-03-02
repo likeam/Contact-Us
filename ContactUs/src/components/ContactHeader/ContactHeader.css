@@ -1,0 +1,8 @@
+.split{
+    display: flex;
+    flex-direction: row;
+}
+.uform{
+    display: flex;
+    flex-direction: column;
+}
