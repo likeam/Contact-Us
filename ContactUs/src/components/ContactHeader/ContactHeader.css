@@ -1,8 +1,82 @@
 .split{
     display: flex;
     flex-direction: row;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 .uform{
     display: flex;
     flex-direction: column;
 }
+  .split h1 {
+    font-size: 48px;
+    font-weight: 800;
+    max-width: 80%;
+  }
+  .split p {
+    font-weight: 500;
+  }
+  .heading {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .btn{
+    height: 44px;
+    width:  220px;
+    padding: 10px, 18px, 10px, 18px;
+    border-radius: 5px;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+     }
+     .btn-g {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+     }
+     .btn-lg { 
+        width:472px;
+        height: 44px;
+        padding: 10px, 18px, 10px, 18px;
+        border-radius: 5px;
+        gap: 10px;
+        margin-top: 10px;
+        border-width: 2px;
+        background-color: transparent;
+        border-color: black;
+        cursor: pointer;
+     }
+     .input{
+        width: 440px;
+        height: 40px;
+        top: 79px;
+        border-width: 2px;
+        background-color: transparent;
+        margin-top: -10px;
+        border-color: black;
+
+
+     }
+     .input-text{
+        width: 440px;
+        height: 129px;
+        border-width: 2px;
+        background-color: transparent;
+        margin-top: -10px;
+        border-color: rgb(114, 104, 104);
+    }
+     .btn-sub{
+
+        margin-left: 240px;
+
+     }
+     form{
+        margin: 8px;
+     }
+     label{
+        margin-left: 10px;
+        z-index: 500;
+        font-weight: 600;
+     }
